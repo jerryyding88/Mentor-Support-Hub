@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Listening Ear - Mentor Support Hub</title>
+  <style>
+    body {
+      font-family: -apple-system, "Segoe UI", "PingFang SC", sans-serif;
+      max-width: 860px; margin: 0 auto; padding: 24px 20px 60px;
+      line-height: 1.8; color: #222;
+    }
+    header { border-bottom: 2px solid #eee; padding-bottom: 16px; margin-bottom: 32px; }
+    header h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    nav a { margin-right: 18px; text-decoration: none; color: #5b3cc4; }
+    nav a:hover { text-decoration: underline; }
+    section { margin-bottom: 48px; }
+    h2 { font-size: 1.3rem; border-left: 4px solid #5b3cc4; padding-left: 10px; }
+    h3 { font-size: 1.05rem; margin-top: 24px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: #5b3cc4; }
+    footer { font-size: 0.85rem; color: #666; border-top: 1px solid #eee; padding-top: 16px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mentor Support Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="academic.html">General Academic Guidance</a>
+      <a href="listening.html">A Listening Ear</a>
+      <a href="pathway.html">Future Pathway</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>A Listening Ear</h2>
+      <p>Feeling lost about your studies, having a low day, or just wanting someone to talk to—these are all reasons to reach out to your mentor. Mentors are here to listen and are ready to help you think things through.</p>
+      <p>Nonetheless, if you are experiencing ongoing psychological pressure, you may contact the University Counselling Centre, which can provide more specialised support. We can also assist with the referral.</p>
+    </section>
+
+    <section>
+      <h3>PGCC</h3>
+      <ul>
+        <li>About PGCC: <a href="https://sao.bnbu.edu.cn/personal/about_us.htm" target="_blank">Link</a></li>
+        <li>How to make an appointment with PGCC counselors: <a href="https://sao.bnbu.edu.cn/personal/counseling_services/individual.htm" target="_blank">Link</a></li>
+        <li>电话 / 24小时热线：(待补充)</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>This website is a personal initiative by Jerry Yang Ding. Contents are for reference only and do not represent the University's official position.</p>
+  </footer>
+
+</body>
+</html>
