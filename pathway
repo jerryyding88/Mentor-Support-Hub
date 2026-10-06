@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Pathway - Mentor Support Hub</title>
+  <style>
+    body {
+      font-family: -apple-system, "Segoe UI", "PingFang SC", sans-serif;
+      max-width: 860px; margin: 0 auto; padding: 24px 20px 60px;
+      line-height: 1.8; color: #222;
+    }
+    header { border-bottom: 2px solid #eee; padding-bottom: 16px; margin-bottom: 32px; }
+    header h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    nav a { margin-right: 18px; text-decoration: none; color: #5b3cc4; }
+    nav a:hover { text-decoration: underline; }
+    section { margin-bottom: 48px; }
+    h2 { font-size: 1.3rem; border-left: 4px solid #5b3cc4; padding-left: 10px; }
+    h3 { font-size: 1.05rem; margin-top: 24px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: #5b3cc4; }
+    footer { font-size: 0.85rem; color: #666; border-top: 1px solid #eee; padding-top: 16px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mentor Support Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="academic.html">General Academic Guidance</a>
+      <a href="listening.html">A Listening Ear</a>
+      <a href="pathway.html">Future Pathway</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Future Pathway Exploration and Information Sharing</h2>
+      <p>Information-searching skills are essential when applying for job positions or overseas university programmes. It is good practice to research relevant information independently by carefully reviewing job or programme descriptions and entry requirements. You may also contact current students, alumni, or employees to learn about their study or work experiences and gain a better understanding of the position or programme.</p>
+    </section>
+
+    <section>
+      <h3>Design your own curriculum vitae (English)</h3>
+      <p>It is easy to use Overleaf LaTeX to design your own curriculum vitae by selecting a template and filling in your personal information: <a href="https://www.overleaf.com/" target="_blank">https://www.overleaf.com/</a>. Make sure that you follow the correct and professional formatting.</p>
+      <p>Guideline on c.v. from University of Oxford: <a href="https://www.ox.ac.uk/careers/careers-guidance/job-search-and-applications/writing-applications/cvs" target="_blank">Link</a></p>
+    </section>
+
+    <section>
+      <h3>中文简历撰写小 tips</h3>
+      <p><strong>格式排版</strong>：一页为佳，排版紧凑；联系方式清晰：手机、邮箱放顶部显眼位置，邮箱建议用正式地址。加上一张个人照片（只有中文简历需要放个人照片，英文简历不可以放个人照片！）；字号、行距、标点、日期格式全篇保持一致。</p>
+      <p><strong>描述</strong>：教育、实习、项目经历都按时间从近到远写；要和申请岗位相匹配，只写和申请方向相关的内容；每条经历用动词起头，如“负责”“策划”“独立完成”。</p>
+      <p><strong>量化成果</strong>：用数据/成果说话，不写“本人性格开朗”这类空话。</p>
+    </section>
+
+    <section>
+      <h3>BNBU CDC's 1v1 consultation service</h3>
+      <p>For more specific, professional and personalized career and study-abroad support, you may use the 1v1 consultation service provided by BNBU CDC. Details can be viewed in BNBU CDC's official WeChat account: <a href="https://mp.weixin.qq.com/s/ldyU6FtYcsh5LHlLu7cAFw" target="_blank">Link</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>This website is a personal initiative by Jerry Yang Ding. Contents are for reference only and do not represent the University's official position.</p>
+  </footer>
+
+</body>
+</html>
