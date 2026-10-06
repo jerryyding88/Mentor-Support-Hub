@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General Academic Guidance - Mentor Support Hub</title>
+  <style>
+    body {
+      font-family: -apple-system, "Segoe UI", "PingFang SC", sans-serif;
+      max-width: 860px; margin: 0 auto; padding: 24px 20px 60px;
+      line-height: 1.8; color: #222;
+    }
+    header { border-bottom: 2px solid #eee; padding-bottom: 16px; margin-bottom: 32px; }
+    header h1 { font-size: 1.6rem; margin: 0 0 8px; }
+    nav a { margin-right: 18px; text-decoration: none; color: #5b3cc4; }
+    nav a:hover { text-decoration: underline; }
+    section { margin-bottom: 48px; }
+    h2 { font-size: 1.3rem; border-left: 4px solid #5b3cc4; padding-left: 10px; }
+    h3 { font-size: 1.05rem; margin-top: 24px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: #5b3cc4; }
+    footer { font-size: 0.85rem; color: #666; border-top: 1px solid #eee; padding-top: 16px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mentor Support Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="academic.html">General Academic Guidance</a>
+      <a href="listening.html">A Listening Ear</a>
+      <a href="pathway.html">Future Pathway</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>General Academic Guidance</h2>
+    </section>
+
+    <section>
+      <h3>Academic Essentials and Quick Actions</h3>
+      <ul>
+        <li><strong>Academic Calendar</strong>: <a href="https://ar.bnbu.edu.cn/current_students/student_handbook/Academic_Calendar.htm" target="_blank">View here</a></li>
+        <li><strong>Course selection</strong>: Refer to the <a href="https://ar.bnbu.edu.cn/current_students/student_handbook/programme_handbook.htm" target="_blank">Programme Handbook</a> to check the courses you will take in four years. For detailed courses, check the course selection system each semester.</li>
+        <li><strong>Major Elective (ME) Courses</strong>: Students in junior years are not permitted to enroll in ME courses designed for senior years, whereas students in senior years may enroll in ME courses designed for junior years.</li>
+        <li><em>Please pay attention to the level and category of GE courses when selecting courses.</em></li>
+        <li><strong>Absence Leave Application Procedures</strong>: <a href="https://ar.bnbu.edu.cn/Guide%20for%20Students1023.pdf" target="_blank">Guide for Students (PDF)</a></li>
+        <li><strong>Rankings</strong>: <a href="https://ar.bnbu.edu.cn/info/3522/4037.htm" target="_blank">View your rankings</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Graduation Check</h3>
+      <ul>
+        <li><strong>Graduation Audit</strong>: (内容待补充)</li>
+        <li><strong>Contemporary World and China (形势与政策) Completion Check</strong>: <a href="https://sge.bnbu.edu.cn/info/1164/4597.htm" target="_blank">View here</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Others</h3>
+
+      <p><strong>Summer Programme</strong></p>
+      <ul>
+        <li>BNBU Summer Courses: <a href="https://ar.bnbu.edu.cn/current_students/Summer_Programme/BNBU_Summer_Courses_.htm" target="_blank">AR Official Website</a></li>
+        <li>HKBU Summer Courses: <a href="https://ar.bnbu.edu.cn/current_students/Summer_Programme/HKBU_Summer_Programme.htm" target="_blank">AR Official Website</a></li>
+        <li>Studying Abroad (Exchange &amp; Summer/Winter Programme): <a href="https://ido.bnbu.edu.cn/" target="_blank">IDO Official Website</a></li>
+      </ul>
+
+      <p><strong>Minor Programmes</strong>: <a href="https://ar.bnbu.edu.cn/current_students/minor_programmes/regulations.htm" target="_blank">Regulations</a></p>
+
+      <p><strong>Scholarship</strong>: <a href="https://sao.bnbu.edu.cn/campus/scholarships/announcements.htm" target="_blank">Announcements</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>This website is a personal initiative by Jerry Yang Ding. Contents are for reference only and do not represent the University's official position.</p>
+  </footer>
+
+</body>
+</html>
