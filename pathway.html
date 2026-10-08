@@ -4,75 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Future Pathway - Mentor Support Hub</title>
-<style>
-  body {
-    font-family: -apple-system, "Segoe UI", "PingFang SC", sans-serif;
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 24px 20px 60px;
-    line-height: 1.8;
-    color: #222;
-    background: #F7F5FF;
-  }
-  header {
-    border-bottom: 2px solid #E3DCF8;
-    padding-bottom: 16px;
-    margin-bottom: 32px;
-  }
-  header h1 {
-    font-size: 1.6rem;
-    margin: 0 0 8px;
-    color: #5B3CC4;
-  }
-  nav a {
-    margin-right: 18px;
-    text-decoration: none;
-    color: #5B3CC4;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-  section {
-    margin-bottom: 48px;
-  }
-  h2 {
-    font-size: 1.3rem;
-    border-left: 4px solid #5B3CC4;
-    padding-left: 10px;
-    color: #3B2A7A;
-  }
-  h3 {
-    font-size: 1.05rem;
-    margin-top: 24px;
-    color: #4A3A8A;
-  }
-  ul {
-    padding-left: 22px;
-  }
-  li {
-    margin-bottom: 6px;
-  }
-  a {
-    color: #5B3CC4;
-  }
-  footer {
-    font-size: 0.85rem;
-    color: #666;
-    border-top: 1px solid #E3DCF8;
-    padding-top: 16px;
-    margin-top: 60px;
-  }
-</style>
+  <style>
+    body {
+      font-family: -apple-system, "Segoe UI", "PingFang SC", sans-serif;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+      line-height: 1.8;
+      color: #222;
+      background: #F7F5FF;
+    }
+    header {
+      padding-bottom: 20px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #E3DCF8;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #3B2A7A;
+      margin: 0 0 6px;
+    }
+    .breadcrumb {
+      font-size: 0.85rem;
+      color: #888;
+      margin: 0 0 16px;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    nav a {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 20px;
+      background: #EDE8FB;
+      color: #5B3CC4;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: background 0.2s, color 0.2s;
+    }
+    nav a:hover {
+      background: #5B3CC4;
+      color: #fff;
+    }
+    nav a.active {
+      background: #5B3CC4;
+      color: #fff;
+    }
+    section {
+      margin-bottom: 48px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      border-left: 4px solid #5B3CC4;
+      padding-left: 10px;
+      color: #3B2A7A;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 24px;
+      color: #4A3A8A;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #5B3CC4;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #3B2A7A;
+    }
+    footer {
+      font-size: 0.85rem;
+      color: #666;
+      border-top: 1px solid #E3DCF8;
+      padding-top: 16px;
+      margin-top: 60px;
+    }
+  </style>
 </head>
 <body>
 
   <header>
     <h1>Mentor Support Hub</h1>
+    <p class="breadcrumb">Mentor Support Hub / Future Pathway</p>
     <nav>
       <a href="index.html">Home</a>
       <a href="academic.html">General Academic Guidance</a>
       <a href="listening.html">A Listening Ear</a>
-      <a href="pathway.html">Future Pathway</a>
+      <a href="pathway.html" class="active">Future Pathway</a>
     </nav>
   </header>
 
@@ -85,8 +111,8 @@
 
     <section>
       <h3>Design your own curriculum vitae (English)</h3>
-      <p>It is easy to use Overleaf LaTeX to design your own curriculum vitae by selecting a template and filling in your personal information: <a href="https://www.overleaf.com/" target="_blank">https://www.overleaf.com/</a>. Make sure that you follow the correct and professional formatting.</p>
-      <p>Guideline on c.v. from University of Oxford: <a href="https://www.ox.ac.uk/careers/careers-guidance/job-search-and-applications/writing-applications/cvs" target="_blank">Link</a></p>
+      <p>It is easy to use Overleaf LaTeX to design your own curriculum vitae by selecting a template and filling in your personal information: <a href="https://www.overleaf.com/" target="_blank">Overleaf</a>. Make sure that you follow the correct and professional formatting.</p>
+      <p>Guideline on c.v. from University of Oxford: <a href="https://www.ox.ac.uk/careers/careers-guidance/job-search-and-applications/writing-applications/cvs" target="_blank">Oxford Careers — Writing Applications</a></p>
     </section>
 
     <section>
@@ -98,7 +124,7 @@
 
     <section>
       <h3>BNBU CDC's 1v1 consultation service</h3>
-      <p>For more specific, professional and personalized career and study-abroad support, you may use the 1v1 consultation service provided by BNBU CDC. Details can be viewed in BNBU CDC's official WeChat account: <a href="https://mp.weixin.qq.com/s/ldyU6FtYcsh5LHlLu7cAFw" target="_blank">Link</a></p>
+      <p>For more specific, professional and personalized career and study-abroad support, you may use the 1v1 consultation service provided by BNBU CDC. Details can be viewed in BNBU CDC's official WeChat account: <a href="https://mp.weixin.qq.com/s/ldyU6FtYcsh5LHlLu7cAFw" target="_blank">CDC 1v1 Consultation</a></p>
     </section>
 
   </main>
