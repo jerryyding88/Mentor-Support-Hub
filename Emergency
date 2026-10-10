@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Contact - Mentor Support Hub</title>
+  <style>
+    body {
+      font-family: -apple-system, "Segoe UI", "PingFang SC", sans-serif;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+      line-height: 1.8;
+      color: #222;
+      background: #F7F5FF;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 20px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #E3DCF8;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #3B2A7A;
+      margin: 0 0 6px;
+    }
+    .tagline {
+      font-size: 1rem;
+      color: #5B3CC4;
+      font-style: italic;
+      margin: 0 0 6px;
+    }
+    .breadcrumb {
+      font-size: 0.85rem;
+      color: #888;
+      margin: 0 0 16px;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    nav a {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 20px;
+      background: #EDE8FB;
+      color: #5B3CC4;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: background 0.2s, color 0.2s;
+    }
+    nav a:hover {
+      background: #5B3CC4;
+      color: #fff;
+    }
+    nav a.active {
+      background: #5B3CC4;
+      color: #fff;
+    }
+    section {
+      margin-bottom: 48px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      border-left: 4px solid #5B3CC4;
+      padding-left: 10px;
+      color: #3B2A7A;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 24px;
+      color: #4A3A8A;
+    }
+    .contact-card {
+      background: #fff;
+      border: 1px solid #E3DCF8;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+    .contact-card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+    .contact-card p {
+      margin: 4px 0;
+    }
+    .phone {
+      font-weight: 700;
+      color: #5B3CC4;
+      font-size: 1.1rem;
+    }
+    ul {
+      padding-left: 22px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #5B3CC4;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #3B2A7A;
+    }
+    footer {
+      font-size: 0.85rem;
+      color: #666;
+      border-top: 1px solid #E3DCF8;
+      padding-top: 16px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mentor Support Hub</h1>
+    <p class="tagline">We see you, and we're here.</p>
+    <p class="breadcrumb">Mentor Support Hub / Emergency Contact</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="academic.html">General Academic Guidance</a>
+      <a href="listening.html">Alongside You</a>
+      <a href="pathway.html">Future Pathway</a>
+      <a href="emergency.html" class="active">Emergency</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Emergency Contact</h2>
+      <p>If you are in immediate danger, please call the campus security or local emergency services first. The numbers below are compiled from publicly available information for reference only.</p>
+    </section>
+
+    <section>
+      <h3>Campus Support</h3>
+
+      <div class="contact-card">
+        <h3>BNBU Student Hotline 学生热线</h3>
+        <p>24h　<span class="phone">400-030-0262</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>BNBU SAO 学生事务处</h3>
+        <p>SLCDT T4-101 / PGCC V18-101</p>
+        <p>Students' Learning Communities Dev. Team 学生学习型社区发展组</p>
+        <p>24h　<span class="phone">159 9269 9031</span></p>
+        <p>Personal Growth and Counseling Center 个人成长及辅导中心</p>
+        <p><span class="phone">0756-3620210</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>BNBU Security Dept. 保卫处</h3>
+        <p>Emergency Services</p>
+        <p>24h　<span class="phone">136 9777 4141</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>BNBU MCMO 医疗及健康教育中心</h3>
+        <p>Phase I / V25-103 / Phase II D3-B101</p>
+        <p>Medical and Health Education Office</p>
+        <p><span class="phone">3620555 / 3620120</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Emergency Medical Support</h3>
+        <p>24h Phase I　<span class="phone">139 2802 5919</span></p>
+        <p>24h Phase II　<span class="phone">134 3158 7880</span></p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Local Emergency Services</h3>
+
+      <div class="contact-card">
+        <h3>Jinding Police Station 金鼎派出所</h3>
+        <p>24h　<span class="phone">0756-3381250</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Hi-tech District People's Hospital 高新区人民医院</h3>
+        <p>Emergency Dept.</p>
+        <p>24h　<span class="phone">0756-3630035</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>The Fifth Hospital, Sun Yat-Sen University 中大五院</h3>
+        <p>Emergency Center</p>
+        <p>24h　<span class="phone">0756-2528120</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>The Third People's Hospital of Zhuhai 珠海市第三人民医院</h3>
+        <p>Mental Health Dept.</p>
+        <p>24h　<span class="phone">2390120 / 2133301</span></p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Psychological Support Hotlines</h3>
+
+      <div class="contact-card">
+        <h3>National Psychological Assistance Hotline 全国心理援助热线</h3>
+        <p>24h　<span class="phone">12356</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Zhuhai Psychological Assistance Hotline 珠海心理援助热线</h3>
+        <p>24h　<span class="phone">0756-8120120</span></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Hong Kong Suicide Prevention Services Hotline 中国香港生命热线</h3>
+        <p>24h　<span class="phone">(+852) 23820000</span></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>This website is a personal initiative by Jerry Yang Ding. It compiles publicly available information and includes some personal suggestions in the "Future Pathway" section. These suggestions are subjective and for reference only. This website does not represent the University's official position.</p>
+  </footer>
+
+</body>
+</html>
